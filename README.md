@@ -1,5 +1,5 @@
 ### EX5 Information Retrieval Using Boolean Model in Python
-### DATE: 
+### DATE: 13.02.2026
 ### AIM: To implement Information Retrieval Using Boolean Model in Python.
 ### Description:
 <div align = "justify">
@@ -30,7 +30,7 @@ The Boolean model in Information Retrieval (IR) is a fundamental model used for 
             self.index = {}
             self.documents_matrix = None
 
-    def index_document(self, doc_id, text):
+    def inex_document(self, doc_id, text):
         terms = text.lower().split()
         print("Document -", doc_id, terms)
 
@@ -90,4 +90,7 @@ if __name__ == "__main__":
 
 ### Output:
 
+<img width="1119" height="337" alt="image" src="https://github.com/user-attachments/assets/2b2a44bf-1e72-48b6-bfa1-7408a782b29a" />
+
 ### Result:
+Thus, Information Retrieval Using Boolean Model in Python is implemented.
